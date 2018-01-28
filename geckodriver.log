@@ -1,0 +1,24 @@
+1517005974219	geckodriver	INFO	geckodriver 0.19.1
+1517005974236	geckodriver	INFO	Listening on 127.0.0.1:50586
+1517005978499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofile.JZn9ZNe1wbK9"
+1517005981105	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\HP\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517005987948	Marionette	INFO	Listening on port 50596
+1517005987999	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517005988076	Marionette	DEBUG	Register listener.js for window 4294967297
+1517005988706	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1517005990206	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1517005990206	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1517005990214	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1517005990216	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+Unable to read VR Path Registry from C:\Users\HP\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\HP\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\HP\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 10936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\HP\AppData\Local\openvr\openvrpaths.vrpath
