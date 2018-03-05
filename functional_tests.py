@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import unittest
+from time import time, sleep
 
 
 class NewVisitorTest(unittest.TestCase):
@@ -35,9 +36,10 @@ class NewVisitorTest(unittest.TestCase):
         # When he hits enter, the page updates and now tlists
         # "1: Buy food shopping" as an item on a To-do list
         inputbox.send_keys(Keys.ENTER)
+        time.sleep(1)
 
         table = self.browser.find_element_by_id('id_list_table')
-        rows = table.find_elements_by_tag_name('tr')
+        rows = table.find_elements_by_tag_name('td')
         self.assertTrue(
             any(row.text == '1: Buy food shopping' for row in rows),
             "New to-do item did not appear in table"
