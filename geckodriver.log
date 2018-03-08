@@ -405,3 +405,35 @@ Unable to read VR Path Registry from C:\Users\HP\AppData\Local\openvr\openvrpath
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1520473912855	geckodriver	INFO	geckodriver 0.19.1
+1520473912904	geckodriver	INFO	Listening on 127.0.0.1:26334
+1520473917750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\David\\AppData\\Local\\Temp\\rust_mozprofile.U048398NhyTH"
+1520473985038	addons.xpi	WARN	List of valid built-in add-ons could not be parsed.: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIXPCComponents_Utils.readURI]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: _readAddons :: line 6385"  data: no] Stack trace: _readAddons()@resource://gre/modules/addons/XPIProvider.jsm:6385 < getAddonLocations()@resource://gre/modules/addons/XPIProvider.jsm:6046 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1578 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3192 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2172 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3089 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+1520474007342	Marionette	INFO	Enabled via --marionette
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+1520474635849	geckodriver	INFO	geckodriver 0.19.1
+1520474635888	geckodriver	INFO	Listening on 127.0.0.1:26551
+1520474639516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\David\\AppData\\Local\\Temp\\rust_mozprofile.9C2Kcti6x9G7"
+Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+1520474642035	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+1520474649271	Marionette	INFO	Listening on port 26559
+[Child 9852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520474650364	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8000, Chr[Parent 2132, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2132, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2132, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

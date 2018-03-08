@@ -19,7 +19,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get("http://localhost:8000")
         
         # He notices the page title and header mention To-Do list
-        self.assertIn('To-Do', self.browser.title)
+        self.assertIn('To Do List', self.browser.title)
         header_text = self.browser.find_element_by_tag_name('h1').text
      #  self.fail("Finish the test!")
             
